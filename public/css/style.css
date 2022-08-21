@@ -1,0 +1,112 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(222, 221, 221);
+    /* border: .1rem black solid; */
+}
+.noteArea {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.note {
+    width: 20rem;
+    height: 25rem;
+    margin: 1rem;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* flex: 1 0 21%; */
+    position: relative;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: .1rem black solid;
+}
+
+.infoOfNote{
+    width: 90%;
+    overflow-wrap: break-word;
+}
+.id, .color {
+    display: none;
+}
+.clickMe {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+#header {
+    text-align: center;
+    font-size: 3rem;
+}
+
+/* #createNewNote {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+} */
+#newNote {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+/* #noteName {
+    width: 20rem;
+}
+#noteInfo {
+    width: 20.1rem;
+} */
+#noteSection{
+    width: 70%;
+    margin: 2rem auto;
+}
+footer {
+    font-size: 2rem;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    height: 5rem;
+}
+#creationForm {
+    background: #d5b8ffCC;
+    border-radius: 1rem;
+    width: 20rem;
+    height: 25rem;
+    border-radius: 1rem;
+    border: .1rem black solid;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 1rem;
+}
+#submitNote {
+    margin-top: auto;;
+}
+.edit {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+}
+/* #creationForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+} */
+/* .creationSection {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+} */
+/* .creationSection * {
+    width: 25%
+} */
